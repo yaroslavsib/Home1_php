@@ -16,11 +16,10 @@ $brands = array(
 );
 
 foreach ($brands as $key => $row) {
-    $name[$key]  = $row['name'];
     $popularity[$key] = $row['popularity'];
 }
  
-array_multisort($popularity, SORT_DESC, $name, SORT_ASC, $brands);
+array_multisort($popularity, SORT_DESC, $brands);
 
 
 //testing
