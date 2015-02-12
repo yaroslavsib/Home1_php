@@ -22,7 +22,3 @@ foreach ($brands as $key => $row) {
 array_multisort($popularity, SORT_DESC, $brands);
 
 
-//testing
-echo $brands[0]['popularity']."\n".$brands[0]['name']."\n";
-echo $brands[1]['popularity']."\n".$brands[1]['name']."\n";
-echo $brands[2]['popularity']."\n".$brands[2]['name']."\n";
