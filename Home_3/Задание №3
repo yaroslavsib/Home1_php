@@ -1,0 +1,23 @@
+Есть файл categories.csv в котором хранятся категории в следующем формате:
+
+id;parent_id;name
+Пример:
+
+1;;category
+2;1;sub-category
+3;2;sub-sub-category
+4;1;sub-category
+5;;category
+6;5;sub-category
+7;5;sub-category
+8;5;sub-category
+Нужно вывести на экран дерево категорий, в таком виде:
+
+category
+  sub-category
+    sub-sub-category
+  sub-category
+category
+  sub-category
+  sub-category
+  sub-category
